@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet" type="text
+        /css"> 
+    </head>
+
+
+    <body>
+        <div class="container">
+            <div class="home-container">
+                <h3>HOME</h3>
+                <div class="score-container">
+                  <h4 class="score" id="home-score">0</h4>
+                </div>
+                <div class="btn-container">
+                  <div class="square" id="home-one" onclick="addPointsHome(1)">
+                    <p>+1</p>
+                  </div>
+                  <div class="square" id="home-two" onclick="addPointsHome(2)">
+                    <p>+2</p>
+                  </div>
+                  <div class="square" id="home-three" onclick="addPointsHome(3)">
+                    <p>+3</p>
+                  </div>
+                </div>
+            </div>
+            <div class="guest-container">
+                <h3>GUEST</h3>
+                <div class="score-container">
+                  <h4 class="score" id="guest-score">0</h4>
+                </div>
+                <div class="btn-container">
+                  <div class="square" id="guest-one" onclick="addPointsGuest(1)">
+                    <p>+1</p>
+                  </div>
+                  <div class="square" id="guest-two" onclick="addPointsGuest(2)">
+                    <p>+2</p>
+                  </div>
+                  <div class="square" id="guest-three" onclick="addPointsGuest(3)">
+                    <p>+3</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
