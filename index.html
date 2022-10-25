@@ -13,15 +13,16 @@
                 <h3>HOME</h3>
                 <div class="score-container">
                   <h4 class="score" id="home-score">0</h4>
+                  <p id="home-leading"></p>
                 </div>
                 <div class="btn-container">
-                  <div class="square" id="home-one" onclick="addPointsHome(1)">
+                  <div class="square" id="home-one" onclick="addPointsHome(1), indicateLeader()">
                     <p>+1</p>
                   </div>
-                  <div class="square" id="home-two" onclick="addPointsHome(2)">
+                  <div class="square" id="home-two" onclick="addPointsHome(2), indicateLeader()">
                     <p>+2</p>
                   </div>
-                  <div class="square" id="home-three" onclick="addPointsHome(3)">
+                  <div class="square" id="home-three" onclick="addPointsHome(3), indicateLeader()">
                     <p>+3</p>
                   </div>
                 </div>
@@ -35,15 +36,16 @@
                 <h3>GUEST</h3>
                 <div class="score-container">
                   <h4 class="score" id="guest-score">0</h4>
+                  <p id="guest-leading"></p>
                 </div>
                 <div class="btn-container">
-                  <div class="square" id="guest-one" onclick="addPointsGuest(1)">
+                  <div class="square" id="guest-one" onclick="addPointsGuest(1), indicateLeader()">
                     <p>+1</p>
                   </div>
-                  <div class="square" id="guest-two" onclick="addPointsGuest(2)">
+                  <div class="square" id="guest-two" onclick="addPointsGuest(2), indicateLeader()">
                     <p>+2</p>
                   </div>
-                  <div class="square" id="guest-three" onclick="addPointsGuest(3)">
+                  <div class="square" id="guest-three" onclick="addPointsGuest(3), indicateLeader()">
                     <p>+3</p>
                   </div>
                 </div>

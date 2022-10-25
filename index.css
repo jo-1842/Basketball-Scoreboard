@@ -81,10 +81,20 @@ p {
     margin: 0 7% 0 7%;
 }
 
+#reset-btn p {
+    line-height: 28px;
+    text-align: center;
+}
+
+#home-leading, #guest-leading{
+    position: relative;
+    top: -2.5em;
+    right: -3em;
+    color: green;
+}
 
 
-
-
+    
 
 
 
