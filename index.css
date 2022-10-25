@@ -8,7 +8,7 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 80vh;
     background: #1B244A;
     width: 575px;
@@ -72,11 +72,14 @@ h4 {
 p {
     color: #9AABD8;
     font-family: "Cursed Timer ULiL";
-    
-    
 }
 
-
+#reset-btn {
+    font-size: 0.8em;
+    position: relative;
+    top: 40%;
+    margin: 0 7% 0 7%;
+}
 
 
 
